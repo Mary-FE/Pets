@@ -1,0 +1,21 @@
+.navigation .box {
+    grid-template-columns: 4fr 1fr;
+}
+
+.navigation .menu {
+    display: none;
+}
+
+/* Browising (links) ================*/
+.navigation .browising {
+    display: inline-block;
+}
+
+.navigation .link {
+    color: var(--pets-color3);
+    padding-right: 15px;
+}
+
+.navigation .link:hover {
+    color: var(--pets-color4);
+}

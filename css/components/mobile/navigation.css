@@ -1,0 +1,8 @@
+.navigation .box {
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+}
+
+.navigation .browising {
+    display: none;
+}

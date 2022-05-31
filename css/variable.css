@@ -1,0 +1,28 @@
+:root {
+    /* Color */
+    --pets-color1: #fff;
+    --pets-color2: #e5e5e5;
+    --pets-color3: #999;
+    --pets-color4: #736d6d;
+    --pets-color5: #111;
+
+    /* Font */
+    --font-family__title: 'Roboto', sans-serif;
+    --font-family__subtitle: 'Playfair Display', serif;
+    --font-family__text:   'Open Sans',sans-serif;
+    --font-family__icons: 'Pets Icons';
+    
+    /* Button */
+    --base-animation: all .35s ease;
+
+    /* Icons */
+    --icon-menu: '\e900';
+    --icon-right: '\e901';
+    --icon-heart: '\e902';
+    --icon-dog: '\e903';
+    --icon-cat: '\e904';
+    --icon-facebook: '\e905';
+    --icon-twitter: '\e906';
+    --icon-instagram: '\e907';
+    --icon-youtube: '\e908';
+}

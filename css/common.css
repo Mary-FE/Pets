@@ -1,0 +1,56 @@
+body {
+    color: var(--pets-color5);
+    font-family: var(--font-family__text);
+}
+
+/* Icons */
+.menu:before {content: var(--icon-menu)}
+.right:before {content: var(--icon-right)}
+.heart:before {content: var(--icon-heart)}
+.dog:before {content: var(--icon-dog)}
+.cat:before {content: var(--icon-cat)}
+.facebook:before {content: var(--icon-facebook)}
+.twitter:before {content: var(--icon-twitter)}
+.instagram:before {content: var(--icon-instagram)}
+.youtube:before {content: var(--icon-youtube)}
+
+.icon {
+    font: 25px var(--font-family__icons);
+    text-decoration: none;
+}
+
+.menu {
+    padding-top: 8px;
+    color: var(--pets-color3);
+}
+
+.menu:hover {
+    color: var(--pets-color4);
+}
+
+/* Links */
+.link {
+    font: 600 23px var(--font-family__text);
+    color: var(--pets-color5);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* Titiles */
+h1 {
+    font: 59px var(--font-family__title);
+}
+
+h2 {
+    font: 600 40px var(--font-family__title);
+}
+
+h3 {
+    font: 600 20px var(--font-family__title);
+}
+
+.box {
+    max-width: 1200px; /* 1200px go to some variable */
+    margin: 0 auto;
+    padding: 20px 30px;
+}
