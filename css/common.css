@@ -15,11 +15,12 @@ body {
 .youtube:before {content: var(--icon-youtube)}
 
 .icon {
-    font: 25px var(--font-family__icons);
+    font: 500 45px var(--font-family__icons);
     text-decoration: none;
 }
 
 .menu {
+    font-size: 25px;
     padding-top: 8px;
     color: var(--pets-color3);
 }
@@ -36,17 +37,25 @@ body {
     text-transform: uppercase;
 }
 
-/* Titiles */
+/* Titiles and b*/
 h1 {
-    font: 59px var(--font-family__title);
+    font: 600 50px var(--font-family__title);
 }
 
 h2 {
-    font: 600 40px var(--font-family__title);
+    font: 500 32px var(--font-family__title);
 }
 
 h3 {
-    font: 600 20px var(--font-family__title);
+    font: 500 27px var(--font-family__title);
+}
+
+h4 {
+    font: 400 20px var(--font-family__subtitle);
+}
+
+b {
+    font-weight: 700;
 }
 
 .box {

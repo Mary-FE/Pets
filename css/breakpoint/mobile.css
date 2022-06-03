@@ -1,1 +1,8 @@
 @import '../components/mobile/navigation.css';
+@import '../components/mobile/content.css';
+@import '../components/mobile/cats.css';
+@import '../components/mobile/help.css';
+
+@import '../components/image-text.css';
+@import '../components/information.css';
+@import '../components/content-columns-3.css';

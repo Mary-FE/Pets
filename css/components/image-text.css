@@ -1,0 +1,37 @@
+.image-text {
+    position: relative;
+}
+
+.image-text__first {
+    padding: 20px 0;
+    text-align: center;
+    background-color: var(--pets-background);
+}
+
+.image-text__subtitle {
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+}
+
+.image-text_picture,
+.image-text img {
+    width: 100%;
+}
+
+/* For Tablet */
+
+
+
+
+
+/* For Desktop */
+@media screen and (min-width: 1024px) {
+    .image-text__subtitle {
+        font-size: 40px;
+    }
+
+    .image-text__title {
+        font-size: 90px;
+    }
+}

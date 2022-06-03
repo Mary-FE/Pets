@@ -5,10 +5,11 @@
     --pets-color3: #999;
     --pets-color4: #736d6d;
     --pets-color5: #111;
+    --pets-background: #f6f9fe;
 
     /* Font */
-    --font-family__title: 'Roboto', sans-serif;
-    --font-family__subtitle: 'Playfair Display', serif;
+    --font-family__title: 'Playfair Display', serif;
+    --font-family__subtitle: 'Roboto', sans-serif;
     --font-family__text:   'Open Sans',sans-serif;
     --font-family__icons: 'Pets Icons';
     

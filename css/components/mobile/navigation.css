@@ -1,3 +1,7 @@
+.navigation {
+    background-color: var(--pets-background);
+}
+
 .navigation .box {
     display: grid;
     grid-template-columns: 6fr 1fr;
