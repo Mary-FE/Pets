@@ -1,0 +1,35 @@
+.information__title {
+    margin-bottom: 15px;
+}
+
+.information__type--black {
+    padding: 20px;
+    color: var(--pets-color1);
+    background-color: var(--pets-color5);
+}
+
+.information__text {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* For Tablet */
+@media screen and (min-width: 768px) {
+    .information {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    
+    .information__type {
+        max-height: 300px;
+    }
+
+    .information__title {
+        font-size: 36px;
+    }
+    
+    .information__text {
+        font-size: 19px;
+    }
+}
