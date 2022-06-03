@@ -1,0 +1,15 @@
+/* Wrapper */
+.cats .title {
+    max-width: 300px;
+    font-size: 35px;
+}
+
+.cats .subtitle {
+    font-size: 25px;
+}
+
+.content-columns-3__third {
+    display: flex;
+    align-items: flex-end;
+}
+
