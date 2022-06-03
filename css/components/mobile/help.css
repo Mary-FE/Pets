@@ -1,0 +1,9 @@
+.help {
+    padding: 30px 0;
+    background-color: var(--pets-color2);
+}
+
+.help .content-columns-3__second img {
+    height: 100%;
+    object-fit: cover;
+}
