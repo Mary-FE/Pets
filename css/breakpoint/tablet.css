@@ -1,2 +1,5 @@
 @import '../components/tablet/navigation.css';
 @import '../components/tablet/cats.css';
+@import '../components/tablet/training.css';
+@import '../components/tablet/goal.css';
+@import '../components/tablet/question.css';

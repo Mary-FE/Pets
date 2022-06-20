@@ -1,0 +1,11 @@
+.training {
+    margin: 50px 0;
+}
+
+.training .content-columns-3__first {
+    text-align: right;
+}
+
+.training .content-columns-3__second img {
+    height: 100%;
+}

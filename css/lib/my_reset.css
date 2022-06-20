@@ -14,3 +14,7 @@
 	border: 0 none;
 	box-sizing: border-box;
 }
+
+a {
+    transition: var(--base-animation);
+}

@@ -1,0 +1,19 @@
+.question .title {
+    font-size: 35px;
+}
+
+.question .text {
+    margin-left: auto;
+    font-size: 22px;
+}
+
+.question .form {
+    display: grid;
+    grid-template-columns: 1fr 100px;
+    max-width: 100%;
+}
+
+.question .name,
+.question .submit {
+    height: 40px;
+}

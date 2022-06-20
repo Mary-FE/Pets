@@ -8,8 +8,7 @@
     font-size: 25px;
 }
 
-.content-columns-3__third {
+.cats .content-columns-3__third {
     display: flex;
     align-items: flex-end;
 }
-

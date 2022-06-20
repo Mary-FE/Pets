@@ -1,0 +1,13 @@
+.service {
+    background-color: var(--pets-dog-background);
+}
+
+@media screen and (min-width: 767px) {
+    .service .content-columns-3 {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* .service .content-columns-3__text {
+        font-size: 17px;
+    } */
+}

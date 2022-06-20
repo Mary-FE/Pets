@@ -1,0 +1,24 @@
+.question {
+    background-color: var(--pets-background);
+}
+
+.question .title,
+.question .text {
+    margin-bottom: 10px;
+}
+
+.question .text {
+    max-width: 500px;
+    font: 400 11px/1.8 var(--font-family__subtitle);
+}
+
+.question .name {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 20px;
+    border: 1px solid var(--pets-border)
+}
+
+.question .form {
+    max-width: 300px;
+}

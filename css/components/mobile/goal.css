@@ -1,0 +1,11 @@
+.goal {
+    padding: 25px 0;
+    text-align: center;
+    color: var(--pets-color1);
+    background-color: var(--pets-color5);
+}
+
+.goal .text {
+    margin-bottom: 15px;
+    font: 500 18px var(--font-family__title);
+}

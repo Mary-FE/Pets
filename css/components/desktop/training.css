@@ -1,0 +1,8 @@
+.training .content-columns-3 {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.training .box {
+    display: flex;
+    align-items: end;
+}

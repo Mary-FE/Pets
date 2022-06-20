@@ -1,0 +1,38 @@
+.submit-2 {
+        width: 100%;
+        height: 40px;
+        color: var(--pets-color1);
+        background-color: var(--pets-color5);
+    
+        transition: var(--base-animation);
+        cursor: pointer;
+        
+        animation: submit2 3s linear infinite;
+}
+
+@keyframes submit2 {
+    0% {
+        background-color: #111;
+        box-shadow: 0 0 2px #111;
+    }
+
+    25% {
+        background-color: #454141;
+        box-shadow: 0 0 4px #454141;
+    }
+
+    50% {
+        background-color: #766c6c;
+        box-shadow: 0 0 6px #766c6c;
+    }
+
+    75% {
+        background-color: #a29c9c;
+        box-shadow: 0 0 8px #a29c9c;
+    }
+
+    100% {
+        background-color: #1111;
+        box-shadow: 0 0 2px #111;
+    }
+}

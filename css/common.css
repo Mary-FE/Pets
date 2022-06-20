@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     color: var(--pets-color5);
     font-family: var(--font-family__text);
@@ -29,6 +33,25 @@ body {
     color: var(--pets-color4);
 }
 
+.social {
+    margin-right: 15px;
+    color: var(--pets-color5);
+    font-size: 25px;
+}
+
+.social:hover {
+    color: var(--pets-color3);
+}
+
+.white {
+    color: var(--pets-color1);
+    font-size: 25px;
+}
+
+.white:hover {
+    color: var(--pets-color3);
+}
+
 /* Links */
 .link {
     font: 600 23px var(--font-family__text);
@@ -36,6 +59,37 @@ body {
     text-decoration: none;
     text-transform: uppercase;
 }
+
+/* Buttons */
+.button {
+    margin-bottom: 20px;
+    color: var(--pets-color1);
+    background-color: var(--pets-color5);
+    cursor: pointer;
+    transition: var(--base-animation);
+}
+
+.button:hover {
+    background-color: var(--pets-color3);
+}
+
+._service {
+    padding: 10px 50px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+/* .submit {
+    width: 100%;
+    padding: 5px;
+    color: var(--pets-color1);
+    background-color: var(--pets-color5);
+}
+
+.submit:hover {
+    transition: var(--base-animation);
+    cursor: pointer;
+} */
 
 /* Titiles and b*/
 h1 {
@@ -47,11 +101,11 @@ h2 {
 }
 
 h3 {
-    font: 500 27px var(--font-family__title);
+    font: 500 22px var(--font-family__title);
 }
 
 h4 {
-    font: 400 20px var(--font-family__subtitle);
+    font: 400 20px var(--font-family__title);
 }
 
 b {
